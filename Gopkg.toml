@@ -1,0 +1,12 @@
+[[constraint]]
+  name = "github.com/hashicorp/vault"
+  version = "0.6.5"
+
+# dep is incorrectly pinning azure-sdk-for-go to v15.1.1
+[[override]]
+  name = "github.com/Azure/azure-sdk-for-go"
+  revision = "d05c22dc3f9fdd2ec6e3593839fdd44df17f2de5"
+
+[prune]
+  go-tests = true
+  unused-packages = true
