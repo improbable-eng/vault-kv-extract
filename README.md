@@ -1,4 +1,4 @@
-![vault-kv-extract](https://github.com/improbable/vault-kv-extract/blob/master/images/black-and-white-dark-keys.jpg)
+![vault-kv-extract](https://github.com/improbable-eng/vault-kv-extract/blob/master/images/black-and-white-dark-keys.jpg)
 
 # vault-kv-extract
 
