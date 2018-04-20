@@ -2,7 +2,7 @@
 
 # vault-kv-extract
 
-This repo holds the script we used to migrate hidden Vault (v0.6.5) secrets out of an etcd v3 storage backend. Read more about our migration escapade at *TODO(keeley): Add link to Breaking Into Our Own Vault of Secrets blog post.*
+This repo holds the script we used to migrate hidden Vault (v0.6.5) secrets out of an etcd v3 storage backend. Read more about our migration escapade at [Breaking into our own vault of secrets](https://improbable.io/games/blog/breaking-into-our-own-vault-of-secrets).
 
 ## Example usage
 
