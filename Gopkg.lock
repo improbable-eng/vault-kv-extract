@@ -411,14 +411,17 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = [
+    "blowfish",
+    "chacha20",
     "curve25519",
     "ed25519",
     "ed25519/internal/edwards25519",
-    "internal/chacha20",
+    "internal/subtle",
     "poly1305",
-    "ssh"
+    "ssh",
+    "ssh/internal/bcrypt_pbkdf"
   ]
-  revision = "d6449816ce06963d9d136eee5a56fca5b0616e7e"
+  revision = "056763e48d71961566155f089ac0f02f1dda9b5a"
 
 [[projects]]
   branch = "master"
@@ -450,8 +453,11 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
-  packages = ["unix"]
-  revision = "f6f352972f061230a99fbf49d1eb8073ebdb36cb"
+  packages = [
+    "cpu",
+    "unix"
+  ]
+  revision = "ea54a3c99b9bf45d4c6a58010c98f4ba23e70265"
 
 [[projects]]
   name = "golang.org/x/text"
